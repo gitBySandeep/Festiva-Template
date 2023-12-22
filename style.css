@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.first {
+    height: 720px;
+    width: 100vw;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    height: 42px;
+    width: 100vw;
+    background-color: #e5b819;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+}
+
+header h4 {
+    margin-left: 110px;
+}
+
+.header-1 {
+    height: 60px;
+    width: 100vw;
+    /* border: 1px solid red; */
+    /* position: absolute; */
+    background-color: rgba(0, 0, 0,0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: calc(42px);
+    
+    /* z-index: 1; */
+}
+
+.festival {
+    height: 25px;
+    /* width: 15%; */
+    /* border: 1px solid red; */
+    margin-left: 40px;
+}
+
+.festival h2 {
+    color: white;
+}
+
+.information {
+    height: 25px;
+    width: 55vw;
+    margin-left: 100px;
+    /* border: 1px solid red; */
+}
+
+.inform {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 3px;
+    color: white;
+}
+
+.inform button {
+    height: 35px;
+    width: 90px;
+    border-radius: 30px;
+    background-color: #EE5007;
+    /* border: 1px solid red; */
+    margin-top: -9px;
+    margin-left: 60px;
+    border: none;
+}
+
+.inform button:hover {
+    background-color: brown;
+}
+
+.inform li:hover {
+    color: #EE5007;
+}
+
+.videoos {
+    height: 60%;
+    width: 100vw;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+}
+
+.first-container {
+    height: 150px;
+    width: 600px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-container button {
+    height: 30px;
+    width: 100px;
+    border-radius: 10%;
+    margin-top: 30px;
+    border: none;
+    background-color: #EE5007;
+    /* border: 1px solid red; */
+}
+
+.first-container button:hover {
+    background-color: brown;
+}
+
+.first-footer {
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.first-footer h1 {
+    color: white;
+    font-size: 20px;
+}
+
+.second {
+    height: 500px;
+    width: 100vw;
+    /* border: 1px solid red; */
+
+}
+
+.second {
+    background-image: url(templatemo_583_festava_live/images/edward-unsplash-blur.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-container {
+    height: 400px;
+    width: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.second-left {
+    height: 300px;
+    width: 50%;
+    /* border: 1px solid red; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.second-left p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.second-right {
+    height: 350px;
+    width: 45%;
+    border-radius: 5%;
+    /* border: 1px solid red; */
+    color: white;
+    display: flex;
+    background-image: url(templatemo_583_festava_live/images/pexels-alexander-suhorucov-6457579.jpg);
+    background-size: cover;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* margin: 2%; */
+}
+
+.second-right-1 {
+    height: 110px;
+    width: 90%;
+    border: 1px solid white;
+    margin-top: 37%;
+    margin-left: 5%;
+    border-radius: 12%;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.second-1 {
+    height: 60px;
+    width: 60px;
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    background-color: #e5b819;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.second-2 {
+    height: 80px;
+    width: 60%;
+    margin-top: -12%;
+    margin-left: 23%;
+    /* border: 1px solid red; */
+}
+
+.third {
+    height: 850px;
+    width: 100vw;
+    /* border: 1px solid red; */
+}
+
+.third-header {
+    height: 60px;
+    width: 100%;
+    margin-top: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-header h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.third-container {
+    height: 720px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin-top: 10px;
+}
+
+.third-left {
+    height: 700px;
+    width: 33%;
+    /* border: 1px solid red; */
+    background-image: url(templatemo_583_festava_live/images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.third-right {
+    height: 700px;
+    width: 40%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-1 {
+    height: 300px;
+    width: 93%;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    background-image: url(templatemo_583_festava_live/images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg);
+    background-size: cover;
+}
+
+.third-2 {
+    height: 300px;
+    width: 93%;
+    /* border: 1px solid red; */
+    border-radius: 20px;
+    margin-top: 25px;
+    background-image: url(templatemo_583_festava_live/images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg);
+    background-size: cover;
+}
+
+.fourth {
+    height: 800px;
+    width: 100vw;
+    background-image: url(templatemo_583_festava_live/images/nainoa-shizuru-unsplash-blur.jpg);
+    background-size: cover;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth-header {
+    height: 70px;
+    width: 100%;
+    margin-top: 70px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-container {
+    height: 600px;
+    width: 85%;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+}
+
+.fourth-container-header {
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid red; */
+    border-radius: 10px 10px;
+    background-color: #EE5007;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourth-container-header h3 {
+    color: white;
+    font-size: 15px;
+}
+
+.fourth-inner-container {
+    height: 530px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.fourth-inner-container-one {
+    height: 100%;
+    width: 19%;
+    /* border: 1px solid red; */
+}
+
+.fourth-inner-container-one div {
+    height: 33%;
+    width: 100%;
+    border: 1px solid rgb(189, 159, 159);
+    background-color: rgb(54, 58, 62);
+}
+
+.fourth-inner-container-one h4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 25px; */
+}
+
+.fourth-inner-container-two {
+    height: 100%;
+    width: 33%;
+    /* border: 1px solid red; */
+}
+
+.fourth-inner-container-two div {
+    height: 33%;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: rgb(54, 58, 62);
+}
+
+.fourth-inner-container-two div:nth-child(1) {
+    background-image: url(templatemo_583_festava_live/images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg);
+    background-size: 90%;
+    /* background-position-y: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-inner-container-two-1 {
+    color: white;
+}
+
+.fourth-inner-container-two div:nth-child(2) {
+    background-color: #ECC9C7;
+}
+
+.fourth-inner-container-two div:nth-child(3) {
+    background-image: url(templatemo_583_festava_live/images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-inner-container-two-3 {
+    color: white;
+}
+
+.fourth-inner-container-three {
+    height: 100%;
+    width: 25%;
+    /* border: 1px solid red; */
+
+}
+
+.fourth-inner-container-three div {
+    height: 33%;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: rgb(54, 58, 62);
+}
+
+.fourth-inner-container-three div:nth-child(1) {
+    background-color: #ECC9C7;
+}
+
+.fourth-inner-container-three div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-inner-container-three div:nth-child(3) {
+    background-color: #D1CFC0;
+}
+
+.fourth-inner-container-four {
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid red; */
+}
+
+.fourth-inner-container-four div {
+    height: 33%;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: rgb(54, 58, 62);
+}
+
+.fourth-inner-container-four div:nth-child(1) {
+    background-image: url(templatemo_583_festava_live/images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg);
+    background-size: cover;
+}
+
+.fourth-inner-container-four div:nth-child(2) {
+    background-color: #D1CFC0;
+}
+
+.fourth-inner-container-four div:nth-child(3) {
+    background-color: rgb(54, 58, 62);
+}
+
+.fifth{
+    height: 370px;
+    width: 100vw;
+    /* border: 1px solid red; */
+}
+.fifth-header{
+   height: 100px;
+   width: 100vw;   
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  background-color: #EE5007;
+}
+.fifth-header h1{
+    font-size: 40px;
+    color: white;
+}
+.fifth-container-1{
+    height: 70px;
+    width: 100vw;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+.fifth-container-1{
+    color: #f8cb2e;
+}
+.fifth-container-2{
+    height: 100px;
+    width: 100vw;
+    /* border: 1px solid red;  */
+    background-color: black ;
+    display: flex;
+}
+.fifth-container-2-1{
+    height: 60px;
+    width: 35vw;
+    /* border: 1px solid red; */
+    margin-left: 30px;
+}
+.fifth-container-2-1 ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.fifth-container-2-1 ul li{
+    color: white;
+}
+.fifth-container-2-1 ul li:hover{
+     color: brown;
+}
+.fifth-container-2-2{
+    height: 60px;
+    width: 20vw;
+    /* border: 1px solid red; */
+    margin-left: 30px;
+}
+.fifth-container-2-2 h2{
+    color: white;
+    font-size: 14px;
+    margin-left: 40px;
+}
+.fifth-container-2-2 h2:nth-child(2){
+    line-height: 35px;
+}
+.fifth-container-2-2 h2:hover{
+color: brown;
+}
+
+.fifth-container-2-3{
+    height: 60px;
+    width: 23vw;
+    /* border: 1px solid red; */
+    margin-left: 120px;
+}
+.fifth-footer{
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    /* border: 1px solid red; */
+    display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.fifth-footer h2{
+    font-size: 14px;
+    color: white;
+}
+.fifth-footer h2:hover{
+    color: brown;
+}
